@@ -1,0 +1,21 @@
+{
+  "name": "@mikeandreassian/contextkit",
+  "version": "0.1.0",
+  "description": "Persistent context.md memory for AI coding agents",
+  "bin": {
+    "ctx": "bin/ctx.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "commander": "^12.1.0"
+  }
+}
